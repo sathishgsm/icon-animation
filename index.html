@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hover Effect</title>
+    <!-- <link rel="stylesheet" href="https://cdn.sencha.com/ext/commercial/7.8.0/build/classic/theme-triton/resources/theme-triton-all.css">
+    <script src="https://cdn.sencha.com/ext/commercial/7.8.0/build/ext-all.js"></script> -->
+    <link rel="stylesheet" href="icon-animation.css" />
+
+  </head>
+
+<body>
+    <div class="d-flex flex-start">
+           <!-- <div id="dv-container"></div> -->
+            <div class="icons d-flex flex-wrap p-10">
+  <!-- /*--------------------home icon---------------------*/             -->
+        <div class="icon1 icon home-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path class="h-top" d="M3 10.5L12 3l9 7.5"/>
+  <path class="h-bottom" d="M5 10v10h14V10"/>
+</svg>
+</div>
+
+
+<!-- /*-----------------------------------search icon-----------------------*/ -->
+        <div class="icon3 icon search-icon-i">
+    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-current size-full search-icon" style="transform-origin: right bottom;">
+      <path d="m21 21-4.34-4.34"></path>
+      <circle cx="11" cy="11" r="8"></circle>
+    </svg>
+</div>
+
+<!-- /*-------------------------------user icon-1------------------------*/ -->
+        <div class="icon2 icon user-icon1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle class="path circle" cx="12" cy="7" r="4"/>
+  <path class="path bodypath" d="M5.5 21c1.5-4 12.5-4 13 0"/>
+</svg>
+</div>
+
+<!-- /*----------------------------chart icon---------------------------*/ -->
+
+        <div class="icon4 icon chart-icon1">
+            <svg class=" chart-icon" xmlns="http://www.w3.org/2000/svg" 
+     viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+  <!-- X axis -->
+  <line x1="3" y1="20" x2="21" y2="20" />
+
+  <!-- Chart bars -->
+  <rect class="bar bar1" x="5" y="12" width="4" height="8" rx="1"/>
+  <rect class="bar bar2" x="10" y="9" width="4" height="11" rx="1"/>
+  <rect class="bar bar3" x="15" y="6" width="4" height="14" rx="1"/>
+</svg>
+</div>
+  <!-- /*-----------------------------------download icon---------------------*/       -->
+        <div class="icon5 icon download-i">
+           <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path class="hvr-hang" d="M12 3v11"/>
+  <path class="hvr-hang" d="M8 12l4 4 4-4"/>
+  <path d="M4 21h16"/>
+</svg>
+
+        </div>
+        <div class="icon6 icon upload-i">
+            <svg class="upload-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path class="hvr-bob" d="M12 21V9"/>
+  <path class="hvr-bob" d="M16 13l-4-4-4 4"/>
+  <path d="M4 3h16"/>
+</svg>
+
+        </div>
+        <div class="icon7 icon notification-i">
+            <svg class="notification-icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/>
+  <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+</svg>
+        </div>
+      
+        <div class="icon9 icon right-arrow right-arrow-i">
+            <svg class="r-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" >
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+        </div>
+        <div class="icon left-arrow left-arrow-i">
+          <svg class="l-icon"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="19" y1="12" x2="5" y2="12"/>
+        <polyline points="12 5 5 12 12 19"/>
+      </svg>
+
+        </div>
+        <div class="icon top-arrow top-arrow-i">
+          <svg class="t-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"/>
+            <polyline points="5 12 12 5 19 12"/>
+          </svg>
+        </div>
+        <div class="icon bottom-arrow bottom-arrow-i">
+          <svg class="b-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <polyline points="5 12 12 19 19 12"/>
+          </svg>
+        </div>
+        <div class="icon delete-icon-i">
+          <svg class="delete-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline class="d-path d-path-top" points="3 6 5 6 21 6" />
+            <path class="d-path " d="M19 6l-1 14H6L5 6" />
+            <path class="d-path inner-path1" d="M10 11v6" />
+            <path class="d-path inner-path2" d="M14 11v6" />
+            <path class="d-path d-path-top" d="M9 6V4h6v2" />
+          </svg>
+
+        </div>
+        <div class="icon setting-icon">
+          <svg class="r-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="3" />
+  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.03a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.03a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.03a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+</svg>
+
+        </div>
+        <div class="icon close-icon-i">
+          <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line class="diagonal1" x1="18" y1="6" x2="6" y2="18" />
+  <line class="diagonal2" x1="6" y1="6" x2="18" y2="18" />
+</svg>
+
+        </div>
+        <div class="icon lock-icon-i">
+          <svg class="lock-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="5" y="11" width="14" height="10" rx="2" ry="2" />
+  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+</svg>
+
+        </div>
+        <div class="icon loading-icon-i">
+<svg class="loading-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="12" y1="2" x2="12" y2="6" />
+  <line x1="12" y1="18" x2="12" y2="22" />
+  <line x1="4.93" y1="4.93" x2="7.76" y2="7.76" />
+  <line x1="16.24" y1="16.24" x2="19.07" y2="19.07" />
+  <line x1="2" y1="12" x2="6" y2="12" />
+  <line x1="18" y1="12" x2="22" y2="12" />
+  <line x1="4.93" y1="19.07" x2="7.76" y2="16.24" />
+  <line x1="16.24" y1="7.76" x2="19.07" y2="4.93" />
+</svg>
+
+
+
+        </div>
+        <div class="icon plus-icon-i">
+          <svg class="plus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="12" y1="5" x2="12" y2="19" />
+  <line x1="5" y1="12" x2="19" y2="12" />
+</svg>
+
+        </div>
+        <div class="icon minus-icon-i">
+          <svg class="minus-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line class="m-line" x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+
+        </div>
+        <div class="circle-message-more">
+          <svg class="r-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M21 11.5a8.38 8.38 0 0 1-1.9 5.4A8.5 8.5 0 0 1 12 21a8.38 8.38 0 0 1-5.4-1.9L3 21l1.9-3.6A8.38 8.38 0 0 1 3 11.5 8.5 8.5 0 0 1 12 3a8.5 8.5 0 0 1 9 8.5z" />
+  <circle cx="9" cy="12" r="1" />
+  <circle cx="12" cy="12" r="1" />
+  <circle cx="15" cy="12" r="1" />
+</svg>
+
+        </div>
+        <div class="icon list-icon-i">
+          <svg class="list-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line class="list-line  top" x1="8" y1="6" x2="21" y2="6" />
+  <line class="list-line center" x1="8" y1="12" x2="21" y2="12" />
+  <line class="list-line center" x1="8" y1="18" x2="21" y2="18" />
+  <circle class="list-line list-circle top" cx="4" cy="6" r="1" />
+  <circle class="list-line list-circle top" cx="4" cy="12" r="1" />
+  <circle class="list-line list-circle top" cx="4" cy="18" r="1" />
+</svg>
+
+        </div>
+        <div class="icon location-icon-i">
+          <svg class="location-iocn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path class="location-path" d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/>
+  <circle class="location-circle" cx="12" cy="10" r="3"/>
+</svg>
+
+        </div>
+        <div class="icon login-icon-i">
+          <svg class="login-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" 
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M15 3h4v18h-4"/>
+  <polyline class="log-path" points="10 17 15 12 10 7" />
+  <line class="log-line" x1="15" y1="12" x2="3" y2="12" />
+</svg>
+
+        </div>
+        <div class="icon check-icon-i">
+          <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline class="tickmark" points="4 12 9 17 20 6" />
+</svg>
+
+        </div>
+        <div class="icon ban-icon-i">
+          <svg class="ban-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9" />
+  <line x1="5" y1="5" x2="19" y2="19" />
+</svg>
+
+        </div>
+        <div class="icon activity-icon-i">
+          <svg class="activity-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="3 12 7 12 10 4 14 20 17 12 21 12" />
+</svg>
+
+        </div>
+        <div class="icon  c-arrow-down">
+          <svg class="c-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="6 9 12 15 18 9" />
+</svg>
+
+        </div>
+        <div class="icon  c-arrow-left">
+          <svg class="c-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+        </div>
+        <div class="icon c-arrow-right">
+          <svg class="c-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="9 6 15 12 9 18" />
+</svg>
+
+        </div>
+        <div class="icon c-arrow-up">
+          <svg class="c-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="6 15 12 9 18 15" />
+</svg>
+
+        </div>
+        <div class="icon double-left-arrow-i">
+          <svg class="double-left-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="18 6 12 12 18 18" />
+              <polyline points="12 6 6 12 12 18" />
+          </svg>
+
+        </div>
+        <div class="icon double-right-arrow-i">
+          <svg class="double-right-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="6 6 12 12 6 18" />
+  <polyline points="12 6 18 12 12 18" />
+</svg>
+
+        </div>
+        <div class="icon heart-icon-i">
+          <svg xmlns="http://www.w3.org/2000/svg" class="heart-icon" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z"/>
+</svg>
+
+        </div>
+      <div class="eye-container icon eye-icon-i">
+  <svg xmlns="http://www.w3.org/2000/svg" class="eye-icon" viewBox="0 0 24 24" fill="none"
+       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/>
+    <circle cx="12" cy="12" r="3"/>
+  </svg>
+</div>
+        <div class="icon gauge-icon-i">
+          <svg xmlns="http://www.w3.org/2000/svg" class="gauge-icon" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path class="g-path" d="M3 15a9 9 0 1 1 18 0"/>
+  <line class="g-line" x1="12" y1="12" x2="12" y2="15"/>
+</svg>
+
+        </div>
+        <div class="icon link-icon-i">
+          <svg xmlns="http://www.w3.org/2000/svg" class="link-icon" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path class="link-path top" d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1"/>
+  <path class="link-path bottom" d="M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1"/>
+</svg>
+
+        </div>
+        <div class="icon layer-icon-i">
+          <svg xmlns="http://www.w3.org/2000/svg" class="layer-icon" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polygon class="layer-path l-pathtop" points="12 3 2 8 12 13 22 8 12 3"/>
+  <polyline class="layer-path l-pathcenter" points="2 13 12 18 22 13"/>
+  <polyline class="layer-path l-pathbottom" points="2 18 12 23 22 18"/>
+</svg>
+
+        </div>
+        <div class="icon minimize-icon-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="minimize-icon" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline class="min-line topleft-line" points="8 3 8 8 3 8"/>
+  <polyline class="min-line topright-line" points="16 3 16 8 21 8"/>
+  <polyline class="min-line bottomleft-line" points="8 21 8 16 3 16"/>
+  <polyline class="min-line bottomright-line" points="16 21 16 16 21 16"/>
+</svg>
+
+        </div>
+        <div class="icon msg-text-square-i">
+          <svg xmlns="http://www.w3.org/2000/svg" class="msg-text-square" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+  <line class="m-line m-line-top" x1="8" y1="9" x2="16" y2="9"/>
+  <line class="m-line m-line-bottom" x1="8" y1="13" x2="14" y2="13"/>
+</svg>
+
+        </div>
+        <div class="icon referesh-icon-i">
+          <svg xmlns="http://www.w3.org/2000/svg" class="referesh-icon" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <polyline points="3 4 3 10 9 10" />
+  <polyline points="21 20 21 14 15 14" />
+  <path d="M3 10a9 9 0 0 1 14-6"/>
+  <path d="M21 14a9 9 0 0 1-14 6"/>
+</svg>
+
+        </div>
+        <div class="icon send-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="default-send" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="22" y1="2" x2="11" y2="13"/>
+  <polygon points="22 2 15 22 11 13 2 9"/>
+</svg>
+
+       <svg xmlns="http://www.w3.org/2000/svg" class="hover-send" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line class="path" x1="22" y1="2" x2="11" y2="13"/>
+  <polygon class="path" points="22 2 15 22 11 13 2 9"/>
+</svg>
+
+        </div>
+        <div class="icon clock-icon-i">
+          <svg class="clock-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+ stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="9" />
+  <line class="large" x1="12" y1="12" x2="12" y2="7" />
+  <line class="small" x1="12" y1="12" x2="16" y2="12" />
+</svg>
+
+        </div>
+        <div class="icon loader-icon-i">
+          <svg class="loader-icon" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <circle cx="12" cy="12" r="10" opacity="0.25"/>
+                <path d="M12 2 
+         A10 10 0 0 1 22 12 
+         A10 10 0 0 1 17 21 
+         A10 10 0 0 1 7 21" />
+      </svg>
+      </div>
+      <div class="icon external-link-icon-i">
+        <svg xmlns="http://www.w3.org/2000/svg" class="external-link"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline class="link-arrow" points="15 3 21 3 21 9"/>
+          <line class="link-arrow" x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
+      </div>
+      <div class="icon wifi-hi-i">
+  <svg xmlns="http://www.w3.org/2000/svg" class="wifi-hi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path class="f-path f-path1" d="M4.93 12.36a7.5 7.5 0 0 1 14.14 0" />
+  <path class="f-path f-path2" d="M7.76 15.22a4.5 4.5 0 0 1 8.48 0" />
+  <path class="f-path f-path3" d="M10.6 18.07a1.5 1.5 0 0 1 2.8 0" />
+  <circle class="f-path f-circle" cx="12" cy="20.5" r="1" fill="currentColor" stroke="none"/>
+</svg>
+</div>
+<div class="icon reporter-i">
+ <!-- <svg data-name="Layer 26" xmlns="http://www.w3.org/2000/svg" class="reporter-icon" viewBox="0 0 22 22" stroke-width="2">
+   <path class="outer-line" data-name="Path 5" d="M17.707 0H3.771A3.776 3.776 0 0 0 0 3.771V18.51a3.776 3.776 0 0 0 3.771 3.771h13.936a3.776 3.776 0 0 0 3.771-3.771V3.771A3.775 3.775 0 0 0 17.707 0zm2.425 18.509a2.428 2.428 0 0 1-2.425 2.425H3.771a2.428 2.428 0 0 1-2.425-2.425V3.771a2.428 2.428 0 0 1 2.425-2.425h13.936a2.428 2.428 0 0 1 2.425 2.425z" fill="#000"/> 
+   <path class="top_line" data-name="Path 6" d="M7.317 5.972h6.844a.673.673 0 1 0 0-1.346H7.317a.673.673 0 1 0 0 1.346z" fill="#000"/>
+  <path class="top_tick" data-name="Path 7" d="m16.551 9.652-1.324 1.068-.309-.394a.673.673 0 0 0-1.059.831l.73.93a.671.671 0 0 0 .452.253.659.659 0 0 0 .077 0 .673.673 0 0 0 .422-.149l1.855-1.495a.674.674 0 0 0-.844-1.05z" fill="#000"/>
+  <path class="center-line" data-name="Path 8" d="M11.224 10.251H4.505a.673.673 0 1 0 0 1.346h6.719a.673.673 0 1 0 0-1.346z" fill="#000"/>
+  <path class="bottom-tick" data-name="Path 9" d="m16.551 14.961-1.324 1.068-.309-.393a.673.673 0 1 0-1.059.831l.73.93a.671.671 0 0 0 .452.254.662.662 0 0 0 .077 0 .673.673 0 0 0 .422-.149l1.855-1.5a.674.674 0 0 0-.844-1.05z" fill="#000"/> 
+  <path class="bottom-line" data-name="Path 10" d="M11.224 15.56H4.505a.673.673 0 1 0 0 1.346h6.719a.673.673 0 1 0 0-1.346z" fill="#000"/> 
+  </svg> -->
+ <svg data-name="Layer 26" xmlns="http://www.w3.org/2000/svg"
+     class="reporter-icon" viewBox="0 0 22 22" stroke-width="2">
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="grad" x1="1" x2="0" y2="1">
+      <stop offset="0" stop-color="#888ed9" />
+      <stop offset="1" stop-color="#63669f" />
+    </linearGradient>
+    <linearGradient id="white" x1="1" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" />
+      <stop offset="1" stop-color="#fff" />
+    </linearGradient>
+  </defs>
+
+  <!-- Apply gradient fill to all paths -->
+  <g >
+    <path class="rectangle" data-name="Path 5" d="M17.707 0H3.771A3.776 3.776 0 0 0 0 3.771V18.51a3.776 3.776 0 0 0 3.771 3.771h13.936a3.776 3.776 0 0 0 3.771-3.771V3.771A3.775 3.775 0 0 0 17.707 0zm2.425 18.509a2.428 2.428 0 0 1-2.425 2.425H3.771a2.428 2.428 0 0 1-2.425-2.425V3.771a2.428 2.428 0 0 1 2.425-2.425h13.936a2.428 2.428 0 0 1 2.425 2.425z"/>
+    
+    <path class="top_line inner-path" data-name="Path 6" d="M7.317 5.972h6.844a.673.673 0 1 0 0-1.346H7.317a.673.673 0 1 0 0 1.346z"/>
+
+    <path class="top_tick inner-path" data-name="Path 7" d="m16.551 9.652-1.324 1.068-.309-.394a.673.673 0 0 0-1.059.831l.73.93a.671.671 0 0 0 .452.253.659.659 0 0 0 .077 0 .673.673 0 0 0 .422-.149l1.855-1.495a.674.674 0 0 0-.844-1.05z"/>
+
+    <path class="center-line inner-path" data-name="Path 8" d="M11.224 10.251H4.505a.673.673 0 1 0 0 1.346h6.719a.673.673 0 1 0 0-1.346z"/>
+
+    <path class="bottom-tick inner-path" data-name="Path 9" d="m16.551 14.961-1.324 1.068-.309-.393a.673.673 0 1 0-1.059.831l.73.93a.671.671 0 0 0 .452.254.662.662 0 0 0 .077 0 .673.673 0 0 0 .422-.149l1.855-1.5a.674.674 0 0 0-.844-1.05z"/>
+
+    <path class="bottom-line inner-path" data-name="Path 10" d="M11.224 15.56H4.505a.673.673 0 1 0 0 1.346h6.719a.673.673 0 1 0 0-1.346z"/>
+  </g>
+
+</svg>
+
+ <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <linearGradient id="grad" x1="1" x2="0" y2="1">
+      <stop offset="0" stop-color="#888ed9" />
+      <stop offset="1" stop-color="#63669f" />
+    </linearGradient>
+    <linearGradient id="white" x1="1" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" />
+      <stop offset="1" stop-color="#fff" />
+    </linearGradient>
+  </defs>
+
+ 
+  <path fill="url(#grad)"
+        d="M17.5 0H4.5A3.5 3.5 0 0 0 1 3.5v15A3.5 3.5 0 0 0 4.5 22h13A3.5 3.5 0 0 0 21 18.5v-15A3.5 3.5 0 0 0 17.5 0Z" />
+
+ 
+  <path fill="url(#white)"
+        d="M7 5.5h8a.6.6 0 1 0 0-1.2H7a.6.6 0 1 0 0 1.2Z" />
+
+ 
+  <path fill="url(#white)"
+        d="M15.7 9.2l-1.1.9-.25-.32a.55.55 0 0 0-.85.7l.6.77a.55.55 0 0 0 .37.2h.06a.55.55 0 0 0 .34-.12l1.45-1.18a.55.55 0 0 0-.73-.95Z" />
+
+ 
+  <path fill="url(#white)"
+        d="M11 10.3H5.3a.56.56 0 1 0 0 1.12H11a.56.56 0 1 0 0-1.12Z" />
+
+ 
+  <path fill="url(#white)"
+        d="M15.7 14.5l-1.1.9-.25-.32a.55.55 0 0 0-.85.7l.6.77a.55.55 0 0 0 .37.2h.06a.55.55 0 0 0 .34-.13l1.45-1.18a.55.55 0 0 0-.73-.94Z" />
+
+  
+  <path fill="url(#white)"
+        d="M11 15.6H5.3a.56.56 0 1 0 0 1.12H11a.56.56 0 1 0 0-1.12Z" />
+
+</svg> -->
+
+</div>
+<div class="icon monitor-i">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="monitor-icon scanline flicker gradient tilt loading"> 
+    <defs>
+    <linearGradient id="a" x1=".081" y1=".752" x2=".94" y2=".071" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#63669f"/>
+      <stop offset="1" stop-color="#888ed9"/>
+    </linearGradient>
+  </defs>
+  <path class="monitor-screen" d="M18 0H2A2 2 0 0 0 0 2v9a2 2 0 0 0 2 2H18a2 2 0 0 0 2-2V2A2 2 0 0 0 18 0zm1 11a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H18a1 1 0 0 1 1 1z"/> 
+  <path class="monitor-stand" d="M8 13v1.5H5v1.5h10v-1.5h-3V13z"/>
+</svg>
+
+
+
+
+</div>
+<div class="icon admin-i">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 20 20" class="user-icon admin-user-icon" stroke-width="2"> 
+  <defs> 
+    <linearGradient id="userGradient" y1=".866" x2="1" y2=".226" gradientUnits="objectBoundingBox" > 
+      <stop offset="0" stop-color="#63669f"/>
+       <stop offset="1" stop-color="#888ed9"/> 
+      </linearGradient> 
+    </defs> 
+    <!-- OUTLINE --> 
+     <circle class="outline head" cx="8.6" cy="4.25" r="4.25" fill="none" stroke="black" stroke-width="1" /> 
+     <path class="outline user-body" d="M13.971 18H3.213A3.252 3.252 0 0 1 0 14.727 a5.628 5.628 0 0 1 5.56-5.664h6.064 a5.628 5.628 0 0 1 5.56 5.664 A3.253 3.253 0 0 1 13.971 18z" fill="none" stroke="black" stroke-width="1" /> 
+     <!-- FILLED (GRADIENT) -->
+      <circle class="fill head user-head" cx="8.6" cy="4.25" r="4.25" fill="url(#userGradient)" /> <path class="fill" d="M13.971 18H3.213A3.252 3.252 0 0 1 0 14.727 a5.628 5.628 0 0 1 5.56-5.664h6.064 a5.628 5.628 0 0 1 5.56 5.664 A3.253 3.253 0 0 1 13.971 18z" fill="url(#userGradient)" />
+    </svg>
+
+
+
+
+ <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" class="admin-user-icon"> 
+  <path class="user-head" d="M10.593 10.483a5.281 5.281 0 0 1-5.309-5.241 5.308 5.308 0 0 1 10.616 0 5.292 5.292 0 0 1-5.307 5.241zm0-8.911 a3.7 3.7 0 0 0-3.716 3.67 3.716 3.716 0 0 0 7.431 0 3.7 3.7 0 0 0-3.715-3.67z" />
+   <path class="admin-user-body" d="M17.223 22.2H3.961A4.01 4.01 0 0 1 0 18.165 a6.94 6.94 0 0 1 6.854-6.986h7.477 a6.938 6.938 0 0 1 6.854 6.986 4.01 4.01 0 0 1-3.962 4.035zM6.854 12.754 a5.377 5.377 0 0 0-5.311 5.413 2.449 2.449 0 0 0 2.418 2.466h13.261 a2.45 2.45 0 0 0 2.419-2.466 5.378 5.378 0 0 0-5.312-5.413z"  />
+  </svg> -->
+
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" class="admin-user-icon"> 
+  <defs> 
+    <linearGradient id="a" y1=".866" x2="1" y2=".226" gradientUnits="objectBoundingBox"> 
+      <stop offset="0" stop-color="#63669f"/> 
+      <stop offset="1" stop-color="#888ed9"/> 
+    </linearGradient> 
+  </defs> 
+  <circle id="user-head" cx="8.6" cy="4.25" r="4.25" class="user-head" />
+   <path id="admin-user-body" class="admin-user-body" d="M13.971 18H3.213A3.252 3.252 0 0 1 0 14.727 a5.628 5.628 0 0 1 5.56-5.664h6.064 a5.628 5.628 0 0 1 5.56 5.664 A3.253 3.253 0 0 1 13.971 18z" /></svg> -->
+
+</div>
+
+<div class="icon configuration-i">
+  <svg class="configuration-icon" data-name="Group 559" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" stroke-width="2"> <path class="outer-c-path" data-name="Path 11" d="M20.036 8.142h-.095a.691.691 0 0 1-.64-.444.684.684 0 0 1 .148-.748l.067-.067a2.175 2.175 0 0 0 0-3.07L18.4 2.7a2.172 2.172 0 0 0-3.069 0l-.067.067a.708.708 0 0 1-1.2-.5v-.1A2.172 2.172 0 0 0 11.893 0h-1.581a2.172 2.172 0 0 0-2.17 2.17v.1a.708.708 0 0 1-1.195.494l-.064-.067a2.172 2.172 0 0 0-3.069 0L2.693 3.81a2.175 2.175 0 0 0 0 3.07l.067.067a.692.692 0 0 1 .137.766.684.684 0 0 1-.632.429H2.17A2.172 2.172 0 0 0 0 10.312v1.581a2.172 2.172 0 0 0 2.17 2.17h.095a.691.691 0 0 1 .64.444.684.684 0 0 1-.148.748l-.067.067a2.175 2.175 0 0 0 0 3.07l1.118 1.117a2.172 2.172 0 0 0 3.07 0l.067-.067a.693.693 0 0 1 .766-.137.682.682 0 0 1 .429.631v.1a2.172 2.172 0 0 0 2.171 2.174h1.584a2.172 2.172 0 0 0 2.17-2.17v-.1a.708.708 0 0 1 1.195-.494l.067.067a2.172 2.172 0 0 0 3.069 0l1.117-1.113a2.175 2.175 0 0 0 0-3.07l-.067-.067a.692.692 0 0 1-.137-.766.684.684 0 0 1 .632-.429h.095a2.172 2.172 0 0 0 2.17-2.17v-1.586a2.172 2.172 0 0 0-2.17-2.17zm.69 3.751a.691.691 0 0 1-.69.69h-.095A2.188 2.188 0 0 0 18.4 16.3l.067.067a.691.691 0 0 1 0 .976l-1.118 1.117a.69.69 0 0 1-.976 0l-.067-.067a2.189 2.189 0 0 0-3.722 1.542v.1a.691.691 0 0 1-.69.69h-1.582a.691.691 0 0 1-.69-.69v-.1A2.184 2.184 0 0 0 5.9 18.4l-.067.067a.691.691 0 0 1-.976 0L3.74 17.349a.691.691 0 0 1 0-.976l.067-.067a2.188 2.188 0 0 0-1.543-3.722H2.17a.691.691 0 0 1-.69-.69v-1.582a.691.691 0 0 1 .69-.69h.095A2.188 2.188 0 0 0 3.807 5.9l-.067-.067a.691.691 0 0 1 0-.976l1.118-1.118a.69.69 0 0 1 .976 0l.067.067a2.189 2.189 0 0 0 3.722-1.541v-.1a.691.691 0 0 1 .69-.69h1.581a.691.691 0 0 1 .69.69v.1a2.188 2.188 0 0 0 3.722 1.541l.067-.067a.69.69 0 0 1 .976 0l1.118 1.118a.691.691 0 0 1 0 .976L18.4 5.9a2.188 2.188 0 0 0 1.543 3.722h.095a.691.691 0 0 1 .69.69z" fill="#000"/> <path class="inner-c-path" data-name="Path 12" d="M11.103 5.912a5.191 5.191 0 1 0 5.191 5.191 5.191 5.191 0 0 0-5.191-5.191zm0 8.9a3.708 3.708 0 1 1 3.708-3.708 3.708 3.708 0 0 1-3.708 3.708z" fill="#000"/> </svg>
+</div>
+<div class="icon sla-i">
+  <svg class="sla-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" stroke-width="2"> <path class="sla-path" d="m1.747 9.487-.809-.809a3.2 3.2 0 0 1 0-4.528L4.118.938a3.206 3.206 0 0 1 4.53 0l.916.916-.745.745-.919-.918a2.15 2.15 0 0 0-3.037 0L1.685 4.899a2.147 2.147 0 0 0 0 3.038l.809.809z" fill="#000"/> <path class="sla-path" d="M2.98 11.79a1.684 1.684 0 0 1-1.191-2.874l5.429-5.418.745.747-5.428 5.418a.63.63 0 0 0 .891.89l4.129-4.129.746.746-4.129 4.129a1.679 1.679 0 0 1-1.191.492" fill="#000"/> <path class="sla-path" d="M9.731 14.855a1.684 1.684 0 0 1-1.191-2.874l2.643-2.643.746.746-2.643 2.645a.63.63 0 1 0 .89.89l6.14-6.14a2.147 2.147 0 0 0 0-3.036l-2.754-2.754a2.147 2.147 0 0 0-3.036 0l-.828.826-.745-.747.828-.826a3.2 3.2 0 0 1 4.528 0l2.754 2.754a3.2 3.2 0 0 1 0 4.528l-6.14 6.14a1.679 1.679 0 0 1-1.191.492" fill="#000"/> <path class="sla-path" d="M6.72 14.595a1.683 1.683 0 0 1-1.191-2.874l3.856-3.856.746.746-3.856 3.856a.63.63 0 0 0 .89.89l4.1-4.095.746.746-4.095 4.095a1.679 1.679 0 0 1-1.191.493" fill="#000"/> <path class="sla-path" d="M4.85 13.192a1.683 1.683 0 0 1-1.191-2.874L7.577 6.4l.746.746-3.92 3.916a.63.63 0 0 0 .89.89l4.1-4.1.746.746-4.1 4.1a1.679 1.679 0 0 1-1.191.492" fill="#000"/> <path class="sla-path" d="M10.592 6.943a1.673 1.673 0 0 1-1.191-.493L6.843 3.872l.749-.743 2.556 2.576a.63.63 0 0 0 .889-.892L8.1 1.879l.746-.746 2.935 2.935a1.684 1.684 0 0 1-1.191 2.875" fill="#000"/> </svg>
+</div>
+<div class="icon radio-i">
+<svg width="50" height="50" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(10 10) scale(1.3) translate(-28 -28)">
+    <circle cx="48" cy="52" r="4" fill="currentColor"/>
+    <path d="M40 44a12 12 0 0 0 0 16"
+          stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M56 44a12 12 0 0 1 0 16"
+          stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M32 36a24 24 0 0 0 0 32"
+          stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M64 36a24 24 0 0 1 0 32"
+          stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
+
+</div>
+<div class="icon graph1-i">
+    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24">
+      <path d="M0 15.385v-.934h17.813v.934z" fill="#000"/>
+      <path d="M12.336 12.727V.387a.418.418 0 0 1 .439-.386h3.357a.419.419 0 0 1 .441.385v12.34a.418.418 0 0 1-.439.385h-3.382a.418.418 0 0 1-.416-.384zm.874-.4h2.49V.787h-2.49zm-11.345.4V7.501a.409.409 0 0 1 .427-.384h3.239a.41.41 0 0 1 .427.384v5.226a.408.408 0 0 1-.407.384H2.273a5.582 5.582 0 0 1-.408-.384zm.849-.4h2.4V7.892h-2.4z" fill="#000"/>
+      <path d="M7.466 13.01h3.364a.316.316 0 0 0 .336-.29V4.03a.316.316 0 0 0-.338-.29H7.465a.316.316 0 0 0-.336.29v8.69a.316.316 0 0 0 .338.291zm.336-8.691h2.69v8.112h-2.69z" fill="#000"/>
+      <path d="M7.443 13.111a.418.418 0 0 1-.414-.384V4.021a.418.418 0 0 1 .439-.382h3.357a.418.418 0 0 1 .441.382v8.707a.418.418 0 0 1-.414.382H7.444zm-.215-.4a.217.217 0 0 0 .231.2h3.377a.217.217 0 0 0 .23-.194V4.035a.218.218 0 0 0-.231-.194H7.458a.217.217 0 0 0-.23.194zm3.365-.184h-2.89V4.215h2.89zm-2.69-.2h2.49V4.415h-2.49z" fill="#000"/>
+    </svg>
+</div>
+<div class="icon user-groups-i">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.78 14.35">
+  <defs>
+    <style>.cls-1{fill:#000000}</style>
+  </defs>
+
+  <path d="M15.23 14.35H6.71a2.604 2.604 0 0 1-2.55-2.63 4.49 4.49 0 0 1 4.4-4.55h4.81a4.49 4.49 0 0 1 4.4 4.55c.02 1.43-1.12 2.6-2.55 2.63zM8.57 8.2c-1.91.04-3.44 1.61-3.41 3.52 0 .87.69 1.58 1.55 1.6h8.52c.87-.02 1.56-.73 1.55-1.6.02-1.91-1.5-3.49-3.41-3.52h-4.8zm2.4-1.38c-1.88 0-3.41-1.53-3.41-3.41C7.56 1.53 9.09 0 10.97 0s3.41 1.53 3.41 3.41-1.53 3.41-3.41 3.41zm0-5.8c-1.32 0-2.39 1.07-2.38 2.39s1.07 2.39 2.39 2.38c1.32 0 2.38-1.07 2.38-2.39a2.39 2.39 0 0 0-2.39-2.39z" fill="#000000"/>
+
+  <path class="cls-1" d="M2.47 12.67h-.43C.91 12.67 0 11.75 0 10.63v-.5C0 8.23 1.54 6.7 3.43 6.7h1.5c.28-.02.53.2.54.48.02.28-.2.53-.48.54H3.42a2.41 2.41 0 0 0-2.41 2.4v.5c0 .56.45 1.02 1.02 1.02h.43c.28 0 .51.23.51.51s-.23.51-.51.51z"/>
+
+  <path class="cls-1" d="M5.75 6.5a2.84 2.84 0 0 1-2.84-2.85A2.84 2.84 0 0 1 6.63.95a.516.516 0 1 1-.29.99h-.02c-.96-.31-1.98.22-2.29 1.18s.22 1.98 1.18 2.29c.36.12.75.12 1.11 0 .27-.09.56.05.65.31.09.27-.05.56-.31.65h-.03c-.28.1-.58.14-.87.14z"/>
+</svg>
+
+</div>
+
+    </div>
+    </div>
+ 
+
+   
+
+<!-- <script>
+Ext.onReady(function() {
+
+    // ---- Fake 1000 records ----
+    var allData = [];
+    for (var i = 1; i <= 1000; i++) {
+        allData.push({
+            id: i,
+            name: "Item " + i,
+            description: "Description " + i
+        });
+    }
+
+    // ---- Normal Store with paging ----//
+    var store = Ext.create('Ext.data.Store', {
+        fields: ["id", "name", "description"],
+        pageSize: 50,
+        proxy: {
+            type: "memory",
+            enablePaging: true,
+            data: allData,
+            reader: {
+                type: "json",
+                rootProperty: ""
+            }
+        },
+        autoLoad: true
+    });
+
+    // ---- DataView with lazy loading ----
+    var view = Ext.create("Ext.view.View", {
+        renderTo: "dv-container",
+        width: 400,
+        height: 600,
+        scrollable: true,
+        store: store,
+
+        tpl: new Ext.XTemplate(
+            '<div>',
+                '<tpl for=".">',
+                    '<div class="item-card">',
+                        '<h3>{name}</h3>',
+                        '<p>{description}</p>',
+                    '</div>',
+                '</tpl>',
+            '</div>'
+        ),
+
+        itemSelector: '.item-card',
+
+        listeners: {
+            afterrender: function(v) {
+                var scroller = v.getScrollable();
+
+                scroller.on("scroll", function(scroller, x, y) {
+                    var max = scroller.getMaxPosition().y;
+
+                    if (max - y < 150 && !store.isLoading()) {
+                        var next = (store.currentPage || 1) + 1;
+                        var total = store.getTotalCount();
+
+                        if (store.getCount() < total) {
+                            store.loadPage(next, { addRecords: true });
+                        }
+                    }
+                });
+            }
+        }
+    });
+
+});
+</script> -->
+
+</body>
+</html>
